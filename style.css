@@ -1,0 +1,72 @@
+
+div.footer p {
+    color: lightgray;
+}
+
+span.error {
+    color: #ff0000;
+}
+
+table#matchMacth tr td,
+img.animalCards,
+img.backOfCards {
+    width: 150px;
+    height: 150px;
+}
+
+table#matchMacth tr td {
+    text-align: center;
+
+}
+
+img.animalCards,
+img.backOfCards {
+    display: none;
+}
+
+table#matchMatch {
+    margin: auto auto;
+}
+
+@media (min-width:10px) and (max-width:813px) {
+    
+
+    img{
+        max-width: 100%;
+    }
+
+    div#matchMacth div div img{
+        height: 30vh;
+
+    }
+}
+
+div#container{
+    position: absolute;
+    width: 980px;
+    top: 30vh;
+}
+
+.two-players{
+    display: none;
+
+}
+
+.form-signin input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.select{
+    border: 1px solid lightgray;
+}
+.match-content{
+    display: none;
+}
+
+.one-player{
+    display: none;
+}
+
+
