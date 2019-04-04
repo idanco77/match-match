@@ -7,6 +7,10 @@ span.error {
     color: #ff0000;
 }
 
+.mcard {
+    cursor: pointer;
+}
+
 table#matchMacth tr td,
 img.animalCards,
 img.backOfCards {
@@ -28,26 +32,25 @@ table#matchMatch {
     margin: auto auto;
 }
 
-@media (min-width:10px) and (max-width:813px) {
-    
+@media (min-width: 10px) and (max-width: 813px) {
 
-    img{
+    img {
         max-width: 100%;
     }
 
-    div#matchMacth div div img{
+    div#matchMacth div div img {
         height: 30vh;
 
     }
 }
 
-div#container{
+div#container {
     position: absolute;
     width: 980px;
     top: 30vh;
 }
 
-.two-players{
+.two-players {
     display: none;
 
 }
@@ -58,14 +61,15 @@ div#container{
     border-bottom-left-radius: 0;
 }
 
-.select{
+.select {
     border: 1px solid lightgray;
 }
-.match-content{
+
+.match-content {
     display: none;
 }
 
-.one-player{
+.one-player {
     display: none;
 }
 

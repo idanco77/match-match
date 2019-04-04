@@ -20,7 +20,7 @@ if ($_SERVER['SERVER_ADMIN'] == 'webmaster@match-match.idan.work') {
     </head>
     <body>
 
-       
+
         <div class="container">
             <h1 class="text-center display-4">Match Match</h1>
             <h4 class="text-center lead">Test your memory and your match skills!</h4>
@@ -33,12 +33,14 @@ if ($_SERVER['SERVER_ADMIN'] == 'webmaster@match-match.idan.work') {
                         <option value="10">1 second</option>
                         <option value="30">3 seconds</option>
                     </select>
-                    <h4 class="lead">1 or 2 players?</h4>
-                    <select class="form-control" id="select-player">
-                        <option value="">Choose...</option>
+
+                    <select class="form-control mt-3" id="select-player">
+                        <option value="">Choose 1 or 2 players?</option>
                         <option value="1">1 player</option>
                         <option value="2">2 players</option>
                     </select> 
+
+
                 </div>
 
             </div>

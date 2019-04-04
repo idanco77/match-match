@@ -124,6 +124,7 @@ $('#start-game').on('click', function () {
         startGameFade();
         $('.match-content').show();
         $('.which-turn').text(player1 + ' play first');
+        
     }
 
 
